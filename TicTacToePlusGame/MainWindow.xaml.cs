@@ -12,8 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+<<<<<<< HEAD
 using TicTacToePlusGame.GameLogic;
 using TicTacToePlusGame.Graphics;
+=======
+>>>>>>> dd82d928372e2bbd0915f46f24132a04641affd8
 
 namespace TicTacToePlusGame
 {
@@ -22,6 +25,7 @@ namespace TicTacToePlusGame
     /// </summary>
     public partial class MainWindow : Window
     {
+<<<<<<< HEAD
         const int BIG_REC_SIZE = 150;
         const int SMALL_REC_SIZE = 30;
         int queueTeam;
@@ -229,5 +233,11 @@ namespace TicTacToePlusGame
         }
 
 
+=======
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+>>>>>>> dd82d928372e2bbd0915f46f24132a04641affd8
     }
 }
